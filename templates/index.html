@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='style.css') }}">
+    <title>Fake News Classifier</title>
+</head>
+<body>
+    <div class="heading">
+        <h1>Fake News Classifier</h1>
+    </div>
+    <div class="input">
+        <textarea name="input" id="textbox" cols="60" rows="40" placeholder="Type here..."></textarea>
+    </div>
+    <div>
+        <button id="submit">Check</button>
+    </div>
+    <div>
+        <p id="classified"></p>
+    </div>
+
+    <script src="{{url_for('static', filename='script.js')}}"></script>
+</body>
+</html>
