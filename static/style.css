@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(8, 47, 59);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+}
+
+.heading {
+    margin: 80px auto;
+    color: cadetblue;
+}
+
+.heading h1 {
+    font-size: 66px;
+}
+
+#textbox {
+    outline: none;
+    background-color: rgb(59, 59, 59);
+    border-radius: 15px;
+    border: none;
+    padding: 10px 10px;
+    font-size: 2vh;
+    color: white;
+    width: 50em;
+    height: 30em;
+}
+
+#submit {
+    border: none;
+    background-color: green;
+    color: white;
+    height: 40px;
+    width: 80px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 25px auto;
+}
+
+#classified {
+    color: white;
+    font-size: 37px;
+}
+
+@media screen and (max-width:600px) {
+    #textbox {
+        width: 80vw;
+    }
+}
