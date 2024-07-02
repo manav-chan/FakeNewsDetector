@@ -7,7 +7,7 @@ It classifies news articles as fake or real, uses Logistic Regression Machine Le
 python -m venv env
 ```
 ```console
-evn\Scripts\activate.bat
+env\Scripts\activate.bat
 ```
 - Install the dependencies using the following command
 ```console
